@@ -51,7 +51,7 @@ Change the  Action to "Deny" and priority to 200, then rename it to deny-icmp an
 <p>
 Notice that the usual reply and request pattern will change to only request, which means that denying the ICMP protocol have been successfully implemented because of the inbound rule setup.
 </p>
-<img src="../images/network-screenshots/wireshark-deny-ping" height="80%" width="80%">
+<img src="../images/network-screenshots/wireshark-deny-ping.png" height="80%" width="80%">
 <br />
 
 <p>
