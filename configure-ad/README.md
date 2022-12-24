@@ -37,10 +37,10 @@ Login to Client-1 -> Open the command line then use the command "ping -t 'DC-1 I
 <img src="../images/AD/Add-new-forest.png" height="80%" width="80%"><br />
 
 <p>Click Tools on the top right corner of server manager -> Select Active Directory Users and Computers -> Create an organiztional unit called "_EMPLOYEES" and "_ADMINS"</p>
-<img src="../images/AD/Create-New-OU" height="80%" width="80%"><br />
+<img src="../images/AD/Create-New-OU.png" height="80%" width="80%"><br />
 
 <p>Go to admins and right click and choose new -> User -> Create a user that we'll give admins privileges. Right click the new user and choose properties -> Member of tab -> add -> Domain then checknames, and choose domain admins -> login as that new user</p>
-<img src="../images/AD/domain-admin-new-user" height="80%" width="80%"><br />
+<img src="../images/AD/domain-admin-new-user.png" height="80%" width="80%"><br />
 
 <p>Go back to azure portal to view client-1 -> Set the DNS to DC-1's private IP address under Networking -> NIC -> DNS servers -> Custom and put DC-1's private ip so that we can connect to the DC-1 active directory.
 Go back to client-1 VM -> Right click the start menu and choose systems -> rename this pc -> under computer name choose change -> Use the mydomain.com(DC-1 domain name) 
