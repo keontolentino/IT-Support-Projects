@@ -39,13 +39,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="../images/osTicket/osticket1/osTicket-extract-copy-rename.png" height="80%" width="80%"> <br />
 
 <p>Open IIS from start menu, click the restart button located on the right side. Go to "sites" folder, click "default web site", click osticket and click "browse 80" on the right side </p>
-<img src="../images/osTicket/osticket1/IIS-restart-browser80.png" height="80%" width="80%"> <br />
+<img src="../images/osTicket/osticket1/osTicket-IIS-restart-browser80.png" height="80%" width="80%"> <br />
 
 <p>On the osTicket folder choose PHP Manager, click enable or disable an  extension at the bottom. Enable php_imap.dll, php_intl.dll, php_opcache.dll. Go back to browser, refresh the page, and you will see the Intl Extension be checked </p>
 <br />
 
 <p>Rename: ost-config.php from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php </p>
-<img src="../images/osTicket/osticket1/ost-config-rename" height="80%" width="80%"> <br />
+<img src="../images/osTicket/osticket1/ost-config-rename.png" height="80%" width="80%"> <br />
 
 <p>Assign permissions for ost-config.php, right click the file then go to properties and security tab -> click advanced -> choose Disable Inheritance -> select remove all -> click add -> select a principal
 -> type everyone and check names -> check full control then select ok. Go back to the browser and click continue, fill in Helpdesk Name, Default email, Admin user.</p>
@@ -57,4 +57,4 @@ Go back to the browser and fill in the MySQL Database with the new database prev
 
 
 <p>The last step is to delete C:\inetpub\wwwroot\osTicket\setup > Set Permissions to Read and read&execute only C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
-<img src="../images/osTicket/osticket1/permissions-ost-config" height="80%" width="80%"> <br />
+<img src="../images/osTicket/osticket1/permissions-ost-config.png" height="80%" width="80%"> <br />
